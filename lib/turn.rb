@@ -40,3 +40,8 @@ def input_to_index(user_input)
   user_index = user_input.to_i
   user_index - 1
 end
+
+#turn 
+
+def turn 
+  
