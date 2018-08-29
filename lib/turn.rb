@@ -28,3 +28,8 @@ def position_taken?(board, index_num)
   end
 end
 
+#move 
+
+def move(board, index_num, player_token = 'X')
+  board[index_num] = player_token
+end 
