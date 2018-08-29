@@ -52,12 +52,12 @@ def turn(board)
   
   if valid_move?(board, index)
     move(board, index, "X")
+    display_board(board)
 
   else turn(board)
   
   end
   
-  #display_board(board)
   
   
 end
