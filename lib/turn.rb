@@ -6,4 +6,16 @@ end
 
 #valid_move?
 
-def valid_move?(board, user_index)
+def valid_move?(board, index_num)
+  
+  if !(position_taken?(board, index_num)) && (index_num.between?(0, 8))
+    TRUE
+  
+  else
+    FALSE
+  
+  end
+  
+end
+
+#
