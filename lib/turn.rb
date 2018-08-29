@@ -33,3 +33,10 @@ end
 def move(board, index_num, player_token = 'X')
   board[index_num] = player_token
 end 
+
+#input_to_index
+
+def input_to_index(user_input)
+  user_index = user_input.to_i
+  user_index - 1
+end
