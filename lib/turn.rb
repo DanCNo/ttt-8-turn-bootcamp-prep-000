@@ -43,5 +43,3 @@ end
 
 #turn 
 
-def turn 
-  
